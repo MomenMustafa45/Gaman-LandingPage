@@ -4,8 +4,8 @@ import BackgroundShadow from "../../background-shadow/BackgroundShadow";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
-import image from "../../../images/landing-main-photo.png";
-import imageIcon from "../../../images/landing-small-photo.png";
+import image from "./images/landing-main-photo.png";
+import imageIcon from "/images/landing-small-photo.png";
 
 const Landing = () => {
   return (
