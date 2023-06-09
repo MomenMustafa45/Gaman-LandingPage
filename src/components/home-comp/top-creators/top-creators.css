@@ -1,0 +1,12 @@
+.slideContainer {
+  overflow: hidden;
+  border: 1px solid red;
+  min-height: 50px;
+}
+
+.slidesHolder {
+  display: flex;
+  flex-wrap: no-wrap;
+  transition-timing-function: ease-in;
+  height: auto;
+}

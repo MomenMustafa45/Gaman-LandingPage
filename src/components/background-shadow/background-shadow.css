@@ -1,0 +1,21 @@
+.background-shadow-container {
+  position: absolute;
+  width: 271px;
+  height: 271px;
+  filter: blur(150px);
+  background: linear-gradient(
+      180deg,
+      #e50f1c -38.3%,
+      rgba(146, 0, 0, 0.89) 198.94%
+    ),
+    #ffffff;
+  opacity: 0.6;
+  border-radius: 50%;
+  z-index: -777;
+}
+
+@media (max-width: 990px) {
+  .background-shadow-container {
+    display: none;
+  }
+}
