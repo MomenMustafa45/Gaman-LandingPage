@@ -1,6 +1,6 @@
 import React from "react";
 import "./creator-card.css";
-import image1 from "../../images/creator.png";
+import image1 from "../../images/creator1.png";
 
 const CreatorCard = ({ creator, earned, followers }) => {
   return (
