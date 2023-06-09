@@ -7,9 +7,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <main className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
     </>
   );
 }
