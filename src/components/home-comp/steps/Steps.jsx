@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import image from "../../../images/Home screen (1) 1.png";
+import React from "react";
+import image from "../../../images/Home screen.png";
 // import { Swiper, SwiperSlide } from "swiper/react";
 import Swiper from "react-id-swiper";
 import "./steps.css";
