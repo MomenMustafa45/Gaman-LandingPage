@@ -10,8 +10,8 @@ import imageIcon from "../../../images/landing-small-photo.png";
 const Landing = () => {
   return (
     <section className="landing-parent">
-      <BackgroundShadow top={0} left={-24} />
-      <BackgroundShadow top={400} left={712} />
+      <BackgroundShadow top={0} left={"-24px"} />
+      <BackgroundShadow top={"400px"} left={"712px"} />
 
       <div className="landing-text-container">
         <h1>

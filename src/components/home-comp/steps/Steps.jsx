@@ -48,9 +48,9 @@ const Steps = () => {
   return (
     <section className="steps-parent">
       <div className="steps-header">
-        <h1>
+        <h2>
           Four Simple <span>Steps</span>
-        </h1>
+        </h2>
       </div>
       <Swiper {...params} className="mySwiper">
         <img src={image} alt="this is img" />

@@ -12,7 +12,7 @@
   margin: 15px;
 }
 
-.steps-header h1 {
+.steps-header h2 {
   width: 35%;
   font-family: "Inter";
   font-style: normal;
@@ -20,7 +20,7 @@
   font-size: 40px;
   text-transform: uppercase;
 }
-.steps-header h1 span {
+.steps-header h2 span {
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -28,7 +28,7 @@
   width: 200px;
 }
 
-.steps-header h1 span::before {
+.steps-header h2 span::before {
   content: "";
   width: 56px;
   height: 7px;
@@ -40,7 +40,7 @@
   position: absolute;
   left: 5px;
 }
-.steps-header h1 span::after {
+.steps-header h2 span::after {
   content: "";
   width: 7px;
   height: 7px;
@@ -217,7 +217,7 @@
     justify-content: center;
   }
 
-  .steps-header h1 {
+  .steps-header h2 {
     width: auto;
   }
 
@@ -275,11 +275,11 @@
     padding-left: 50px;
   }
 
-  .steps-header h1 {
+  .steps-header h2 {
     width: 100%;
     font-size: 25px;
   }
-  .steps-header h1 span {
+  .steps-header h2 span {
     width: 155px;
     margin: auto;
   }

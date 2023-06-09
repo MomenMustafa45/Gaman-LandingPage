@@ -1,12 +1,47 @@
-.slideContainer {
+.creators-parent {
+  position: relative;
+  padding: 40px 0;
+}
+.creators-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.creators-header h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 80%;
+}
+
+.creators-parent .swiper,
+swiper-container {
+  width: 100%;
+}
+
+.creators-parent .slideContainer {
   overflow: hidden;
   border: 1px solid red;
   min-height: 50px;
 }
 
-.slidesHolder {
+.creators-parent .slidesHolder {
   display: flex;
   flex-wrap: no-wrap;
   transition-timing-function: ease-in;
   height: auto;
+}
+
+.creators-parent .swiper-slide,
+swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block;
 }

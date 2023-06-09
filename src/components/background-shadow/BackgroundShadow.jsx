@@ -6,10 +6,10 @@ const BackgroundShadow = ({ top, right, left, bottom }) => {
     <div
       className="background-shadow-container"
       style={{
-        top: top ? `${top}px` : "0",
-        right: right ? `${right}px` : "0",
-        left: left ? `${left}px` : "0",
-        bottom: bottom ? `${bottom}px` : "0",
+        top: top ? `${top}` : "0",
+        right: right ? `${right}` : "0",
+        left: left ? `${left}` : "0",
+        bottom: bottom ? `${bottom}` : "0",
       }}
     ></div>
   );
