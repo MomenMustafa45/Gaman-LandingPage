@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/Gaman-LandingPage" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </>
   );
