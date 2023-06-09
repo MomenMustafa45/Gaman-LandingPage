@@ -5,7 +5,7 @@ import TopCreators from "../../components/home-comp/top-creators/TopCreators";
 
 const Home = () => {
   return (
-    <main>
+    <main className="home-parent">
       <Landing />
       <Steps />
       <TopCreators />
