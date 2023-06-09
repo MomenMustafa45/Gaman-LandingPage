@@ -25,23 +25,61 @@ const TopCreators = () => {
         }}
         wrapperTag="ul"
       >
+        {/* HERE I'm gonna use arr.map() function for data array */}
+        {/* HERE I'm gonna use arr.map() function for data array */}
         <SwiperSlide tag="li" key={1}>
-          {<CreatorCard />}
+          {
+            <CreatorCard
+              followers={5}
+              earned={"$23,943,422"}
+              creator="Jaweria"
+            />
+          }
         </SwiperSlide>
         <SwiperSlide tag="li" key={1}>
-          {<CreatorCard />}
+          {
+            <CreatorCard
+              followers={5}
+              earned={"$23,943,422"}
+              creator="Jaweria"
+            />
+          }
         </SwiperSlide>
         <SwiperSlide tag="li" key={1}>
-          {<CreatorCard />}
+          {
+            <CreatorCard
+              followers={5}
+              earned={"$23,943,422"}
+              creator="Jaweria"
+            />
+          }
         </SwiperSlide>
         <SwiperSlide tag="li" key={1}>
-          {<CreatorCard />}
+          {
+            <CreatorCard
+              followers={5}
+              earned={"$23,943,422"}
+              creator="Jaweria"
+            />
+          }
         </SwiperSlide>
         <SwiperSlide tag="li" key={1}>
-          {<CreatorCard />}
+          {
+            <CreatorCard
+              followers={5}
+              earned={"$23,943,422"}
+              creator="Jaweria"
+            />
+          }
         </SwiperSlide>
         <SwiperSlide tag="li" key={1}>
-          {<CreatorCard />}
+          {
+            <CreatorCard
+              followers={5}
+              earned={"$23,943,422"}
+              creator="Jaweria"
+            />
+          }
         </SwiperSlide>
       </Swiper>
     </section>
