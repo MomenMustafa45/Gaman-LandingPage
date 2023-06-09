@@ -11,7 +11,7 @@ const Landing = () => {
   return (
     <section className="landing-parent">
       <BackgroundShadow top={0} left={"-24px"} />
-      <BackgroundShadow top={"400px"} left={"712px"} />
+      <BackgroundShadow top={"511px"} left={"1020px"} />
 
       <div className="landing-text-container">
         <h1>

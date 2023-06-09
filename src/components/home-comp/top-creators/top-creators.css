@@ -57,4 +57,23 @@ swiper-slide {
     margin: 20% auto 0 auto;
     padding: 0 35px;
   }
+
+  .creators-parent .creators-header h2 {
+    font-size: 18px;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-family: swiper-icons;
+    font-size: 25px;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .creators-parent {
+    margin-top: -170px;
+  }
 }

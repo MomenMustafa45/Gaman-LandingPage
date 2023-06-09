@@ -6,9 +6,8 @@ import BackgroundShadow from "../../background-shadow/BackgroundShadow";
 import CreatorCard from "../../creator-card/CreatorCard";
 
 const TopCreators = () => {
-  const { innerWidth: width, innerHeight: height } = window;
+  const { innerWidth: width } = window;
 
-  console.log(width);
   return (
     <section className="creators-parent">
       {/* background color */}

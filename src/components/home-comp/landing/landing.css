@@ -7,7 +7,7 @@
 }
 
 .landing-text-container {
-  max-width: 50%;
+  max-width: 49%;
 }
 
 .landing-text-container h1 {
@@ -64,7 +64,7 @@
 /* Landing TEXT SLIDER */
 /* Landing TEXT SLIDER */
 .landing-parent .swiper-backface-hidden .swiper-slide {
-  color: var(--main-color);
+  color: #d8111c;
 }
 .landing-parent .swiper,
 .landing-parent .swiper-container {
@@ -79,6 +79,7 @@
 
 .landing-img-container {
   margin-top: -100px;
+  margin-right: -161px;
 }
 .landing-img-container img {
   width: 100%;
@@ -160,5 +161,6 @@
   .landing-parent .swiper,
   .landing-parent .swiper-container {
     width: 240px;
+    margin-left: -45px;
   }
 }

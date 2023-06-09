@@ -6,11 +6,12 @@
 }
 
 .faq-parent .img-fag-container {
-  width: 45%;
+  width: 50%;
+  display: flex;
+  justify-content: end;
 }
-.faq-parent .img-fag-container img {
-  width: 100%;
-}
+/* .faq-parent .img-fag-container img {
+} */
 
 .faq-parent .text-fag-container {
   width: 45%;
@@ -22,10 +23,11 @@
   font-weight: 600;
   font-size: 44px;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .faq-parent .faq-cards-container {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 /* Media querries */
@@ -43,7 +45,7 @@
     align-items: center;
   }
   .faq-parent .img-fag-container img {
-    width: auto;
+    width: 60%;
   }
   .faq-parent .text-fag-container {
     width: 100%;
