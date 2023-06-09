@@ -6,6 +6,9 @@ import BackgroundShadow from "../../background-shadow/BackgroundShadow";
 import CreatorCard from "../../creator-card/CreatorCard";
 
 const TopCreators = () => {
+  const { innerWidth: width, innerHeight: height } = window;
+
+  console.log(width);
   return (
     <section className="creators-parent">
       {/* background color */}
@@ -16,7 +19,7 @@ const TopCreators = () => {
       </div>
       <Swiper
         spaceBetween={50}
-        slidesPerView={3}
+        slidesPerView={width > 990 ? 3 : 1}
         navigation
         pagination={{
           clickable: true,

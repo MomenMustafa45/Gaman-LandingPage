@@ -1,0 +1,54 @@
+.faq-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+
+.faq-parent .img-fag-container {
+  width: 45%;
+}
+.faq-parent .img-fag-container img {
+  width: 100%;
+}
+
+.faq-parent .text-fag-container {
+  width: 45%;
+}
+
+.faq-parent .text-fag-container h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+
+.faq-parent .faq-cards-container {
+  margin-top: 30px;
+}
+
+/* Media querries */
+/* Media querries */
+
+@media (max-width: 990px) {
+  .faq-parent {
+    flex-direction: column-reverse;
+  }
+  .faq-parent .img-fag-container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .faq-parent .img-fag-container img {
+    width: auto;
+  }
+  .faq-parent .text-fag-container {
+    width: 100%;
+  }
+  .faq-parent .text-fag-container h2 {
+    text-align: center;
+  }
+}

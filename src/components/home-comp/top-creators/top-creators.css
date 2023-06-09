@@ -45,3 +45,16 @@ swiper-slide {
   transition-property: transform;
   display: block;
 }
+
+@media (max-width: 990px) {
+  .creators-parent .creator-card-parent {
+    width: 90%;
+    background-color: #f6d8d9;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin: 20% auto 0 auto;
+    padding: 0 35px;
+  }
+}
