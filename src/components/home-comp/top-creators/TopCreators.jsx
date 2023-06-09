@@ -38,7 +38,7 @@ const TopCreators = () => {
             />
           }
         </SwiperSlide>
-        <SwiperSlide tag="li" key={1}>
+        <SwiperSlide tag="li" key={2}>
           {
             <CreatorCard
               followers={5}
@@ -47,7 +47,7 @@ const TopCreators = () => {
             />
           }
         </SwiperSlide>
-        <SwiperSlide tag="li" key={1}>
+        <SwiperSlide tag="li" key={3}>
           {
             <CreatorCard
               followers={5}
@@ -56,7 +56,7 @@ const TopCreators = () => {
             />
           }
         </SwiperSlide>
-        <SwiperSlide tag="li" key={1}>
+        <SwiperSlide tag="li" key={4}>
           {
             <CreatorCard
               followers={5}
@@ -65,7 +65,7 @@ const TopCreators = () => {
             />
           }
         </SwiperSlide>
-        <SwiperSlide tag="li" key={1}>
+        <SwiperSlide tag="li" key={5}>
           {
             <CreatorCard
               followers={5}
@@ -74,7 +74,7 @@ const TopCreators = () => {
             />
           }
         </SwiperSlide>
-        <SwiperSlide tag="li" key={1}>
+        <SwiperSlide tag="li" key={6}>
           {
             <CreatorCard
               followers={5}

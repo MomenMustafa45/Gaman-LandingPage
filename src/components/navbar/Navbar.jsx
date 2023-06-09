@@ -8,8 +8,6 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const pathName = useLocation();
 
-  console.log(pathName);
-
   return (
     <header className="navbar-parent">
       <div className="left-side-container">

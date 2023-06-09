@@ -11,7 +11,7 @@
 }
 
 .landing-text-container h1 {
-  font-family: "Ubuntu";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
@@ -20,7 +20,7 @@
 }
 
 .landing-text-container p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -48,7 +48,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -122,14 +122,14 @@
     max-width: 100%;
   }
   .landing-text-container h1 {
-    font-family: "Ubuntu";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     text-align: center;
   }
   .landing-text-container p {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
