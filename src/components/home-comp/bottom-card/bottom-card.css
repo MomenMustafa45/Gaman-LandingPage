@@ -4,13 +4,12 @@
   height: 380px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background-color: rgba(229, 15, 28, 0.2);
   border-radius: 20px;
 }
 
 .btm-card-parent .left-side {
-  width: 56%;
   position: relative;
 }
 
@@ -54,14 +53,11 @@
 }
 
 .btm-card-parent .img-arrow-container {
-  position: absolute;
-  top: 46%;
-  left: 50%;
-  transform: translate(-13%, -13%);
-  width: 30%;
+  align-self: end;
+  margin: 0px 0px -75px 0px;
 }
 .btm-card-parent .img-arrow-container img {
-  width: 100%;
+  width: 120%;
 }
 
 /* Slider */

@@ -36,16 +36,16 @@ const BottomCard = () => {
         </h1>
       </div>
 
+      <div className="img-arrow-container">
+        <img src={imageArrow} alt="this is arrow img" />
+      </div>
+
       <div className="right-side">
         <p>#gamanforcreators</p>
         <Link to="/">Get Started with Gaman</Link>
       </div>
 
       {/* Arrows and stars Position absolute */}
-
-      <div className="img-arrow-container">
-        <img src={imageArrow} alt="this is arrow img" />
-      </div>
 
       <div className="img-arrow-container-responsive">
         <img src={imageArrowResponsive} alt="this is arrow img" />
