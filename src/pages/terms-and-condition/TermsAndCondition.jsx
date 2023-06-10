@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
-import "./about.css";
-import InformationText from "../../components/who-we-are/InformationText";
+import "./terms-and-condition.css";
 import HeaderPages from "../../components/header-page/HeaderPages";
+import InformationText from "../../components/who-we-are/InformationText";
 
-const About = () => {
+const TermsAndCondition = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
 
   return (
-    <main>
-      <HeaderPages text={"About Us"} />
+    <main className="terms-parent">
+      <HeaderPages text={"Terms & Condition"} />
 
       <InformationText
         textHeader="Who We Are"
@@ -41,4 +41,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default TermsAndCondition;

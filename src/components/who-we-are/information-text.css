@@ -1,0 +1,15 @@
+.information-parent {
+  margin-top: 50px;
+}
+.information-parent h2 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.information-parent p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 164%;
+  color: #000000;
+  margin: 20px 0;
+}

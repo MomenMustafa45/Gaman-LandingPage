@@ -1,0 +1,26 @@
+.header-pages-parent {
+  background-color: #fff;
+  position: relative;
+  height: calc(100vh - 103px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.header-pages-parent::after {
+  content: "";
+  position: absolute;
+  width: 59%;
+  height: 100%;
+  background-color: #ffdcdc;
+  top: 0;
+  right: -80px;
+  border-radius: 79% 21% 0% 100% / 100% 0% 100% 0%;
+  z-index: -777;
+}
+
+.header-pages-parent h1 {
+  font-weight: 600;
+  font-size: 64px;
+}

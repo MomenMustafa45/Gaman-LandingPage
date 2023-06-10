@@ -21,9 +21,9 @@ const Footer = () => {
 
         <div className="footer-links-parent">
           <div className="links-container">
-            <Link>About us</Link>
-            <Link>Privacy policy</Link>
-            <Link>Terms & condition</Link>
+            <Link to="/about">About us</Link>
+            <Link to="/privacy-policy">Privacy policy</Link>
+            <Link to="/terms-condition">Terms & condition</Link>
             <Link>Careers</Link>
             <Link>Creator zone</Link>
           </div>

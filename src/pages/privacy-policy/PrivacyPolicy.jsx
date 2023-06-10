@@ -1,16 +1,15 @@
 import React, { useEffect } from "react";
-import "./about.css";
 import InformationText from "../../components/who-we-are/InformationText";
 import HeaderPages from "../../components/header-page/HeaderPages";
 
-const About = () => {
+const PrivacyPolicy = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
 
   return (
     <main>
-      <HeaderPages text={"About Us"} />
+      <HeaderPages text={"Privacy Policy"} />
 
       <InformationText
         textHeader="Who We Are"
@@ -41,4 +40,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default PrivacyPolicy;
