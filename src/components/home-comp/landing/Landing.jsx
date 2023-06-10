@@ -15,7 +15,7 @@ const Landing = () => {
 
       <div className="landing-text-container">
         <h1>
-          Monetize & Engage Your{" "}
+          Monetize & Engage Your
           <Swiper
             spaceBetween={50}
             slidesPerView={1}

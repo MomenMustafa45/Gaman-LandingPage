@@ -67,7 +67,7 @@ const Navbar = () => {
 
       <nav
         className="toggle-menu-container"
-        style={{ height: `${toggleMenu ? "117px" : "0"}` }}
+        style={{ height: `${toggleMenu ? "auto" : "0"}` }}
       >
         <li>
           <Link to="/" onClick={() => setToggleMenu((prev) => !prev)}>

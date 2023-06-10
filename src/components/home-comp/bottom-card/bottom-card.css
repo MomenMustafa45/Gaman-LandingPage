@@ -55,9 +55,13 @@
 
 .btm-card-parent .img-arrow-container {
   position: absolute;
-  top: 50%;
+  top: 46%;
   left: 50%;
   transform: translate(-13%, -13%);
+  width: 30%;
+}
+.btm-card-parent .img-arrow-container img {
+  width: 100%;
 }
 
 /* Slider */
@@ -68,6 +72,13 @@
 /* Slider */
 
 /* Media Querries */
+@media (max-width: 1200px) and (min-width: 990px) {
+  .btm-card-parent .img-arrow-container {
+    position: absolute;
+    top: 55%;
+  }
+}
+
 @media (max-width: 990px) {
   .btm-card-parent {
     flex-direction: column;
@@ -80,7 +91,7 @@
   }
   .btm-card-parent .left-side h1 {
     font-weight: 500;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 149.5%;
   }
   .btm-card-parent .swiper-horizontal {

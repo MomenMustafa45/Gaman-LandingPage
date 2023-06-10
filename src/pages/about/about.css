@@ -1,0 +1,12 @@
+.about-parent {
+}
+
+.about-parent .about-header {
+  height: calc(100vh - 103px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-parent h1 {
+}

@@ -14,7 +14,7 @@ const BottomCard = () => {
           <img src={imageStars} alt="" />
         </div>
         <h1>
-          Monetize & Engage Your{" "}
+          Monetize & Engage <br /> Your{" "}
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
@@ -30,8 +30,9 @@ const BottomCard = () => {
             <SwiperSlide>FANS</SwiperSlide>
             <SwiperSlide>AUDIENCE</SwiperSlide>
             <SwiperSlide>COMMUNITY</SwiperSlide>
-          </Swiper>{" "}
-          with <br /> Personalized Games
+          </Swiper>
+          <br />
+          with Personalized Games
         </h1>
       </div>
 
