@@ -54,7 +54,7 @@
 
 .btm-card-parent .img-arrow-container {
   align-self: end;
-  margin: 0px 0px -75px 0px;
+  margin: 0px 0px -75px -55px;
 }
 .btm-card-parent .img-arrow-container img {
   width: 120%;
@@ -70,8 +70,20 @@
 /* Media Querries */
 @media (max-width: 1200px) and (min-width: 990px) {
   .btm-card-parent .img-arrow-container {
-    position: absolute;
-    top: 55%;
+    align-self: end;
+    margin: 0 0 -50px;
+  }
+  .btm-card-parent .left-side h1 {
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 149.5%;
+  }
+  .creators-parent .creator-card-parent {
+    margin: 100px auto 0;
+    width: 270px;
+  }
+  .creator-card-parent .card-details .details-right p:first-child {
+    font-size: 16px;
   }
 }
 
