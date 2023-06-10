@@ -1,0 +1,222 @@
+.footer-parent {
+  height: 500px;
+  background: linear-gradient(
+      180deg,
+      #e50f1c -38.3%,
+      rgba(146, 0, 0, 0.89) 198.94%
+    ),
+    #ffffff;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.footer-parent .main-footer-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 0 0 0 120px;
+}
+
+.footer-parent .main-footer-container .social-container-responsive {
+  display: none;
+}
+
+/* Logo Container */
+
+.main-footer-container .logo-footer-container {
+  flex: 2 1;
+  height: 200px;
+}
+
+.main-footer-container .logo-footer-container div {
+  display: flex;
+  align-items: center;
+}
+.main-footer-container .logo-footer-container div img {
+  margin-right: 15px;
+}
+.main-footer-container .logo-footer-container div p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+}
+.main-footer-container .logo-footer-container p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+/* Links Container */
+.footer-links-parent {
+  display: flex;
+  flex: 2;
+}
+
+.main-footer-container .links-container {
+  flex: 1;
+  padding: 5px 20px;
+  border-left: 1.5px solid;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-footer-container .links-container a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Contact Container */
+
+.main-footer-container .contact-container {
+  flex: 1 1;
+  height: 200px;
+  padding: 5px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1.5px solid;
+}
+
+.main-footer-container .contact-container .social-container {
+  font-weight: 600;
+  font-size: 18px;
+}
+.main-footer-container .contact-container .social-container p {
+  margin-bottom: 20px;
+}
+.social-container .social-icons i {
+  margin: 0px 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.main-footer-container
+  .contact-container
+  .social-container
+  .social-icons
+  i:first-child {
+  margin-left: 0;
+}
+.main-footer-container
+  .contact-container
+  .social-container
+  .social-icons
+  i:last-child {
+  margin-right: 0;
+}
+
+.contact-container .contact-us p {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-container .contact-us a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 53px;
+  border: 1.5px solid #ffffff;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* copy&right container */
+.footer-parent .copyright-container p {
+  background: linear-gradient(
+    180deg,
+    rgba(229, 15, 28, 0.6) 0%,
+    rgba(146, 0, 0, 0.534) 100%
+  );
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media (max-width: 990px) {
+  .footer-parent .main-footer-container {
+    flex-direction: column;
+    padding: 25px 0;
+  }
+
+  .social-container-responsive {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .social-container-responsive p {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 9px;
+  }
+
+  .social-container-responsive i {
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .main-footer-container .logo-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-footer-container .logo-footer-container div {
+    align-items: first baseline;
+  }
+  .main-footer-container .logo-footer-container div img {
+    width: 19px;
+    height: 19px;
+    margin-right: 5px;
+  }
+  .main-footer-container .logo-footer-container div p {
+    font-size: 20px;
+  }
+
+  .main-footer-container .logo-footer-container p {
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  /* Links Parent */
+
+  .footer-links-parent {
+    width: 100%;
+  }
+  .main-footer-container .links-container {
+    border: none;
+  }
+  .main-footer-container .links-container a {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .main-footer-container .contact-container {
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    height: auto;
+  }
+
+  .main-footer-container .contact-container .social-container {
+    display: none;
+  }
+
+  /* copy&right */
+  .footer-parent .copyright-container p {
+    font-weight: 500;
+    font-size: 8px;
+  }
+}

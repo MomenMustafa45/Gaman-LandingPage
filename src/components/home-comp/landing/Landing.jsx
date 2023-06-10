@@ -42,7 +42,7 @@ const Landing = () => {
 
         <div className="btn-img-container">
           <Link to="/">
-            <i class="bi bi-arrow-up-right"></i> Get Started
+            <i className="bi bi-arrow-up-right"></i> Get Started
           </Link>
           <img src={imageIcon} alt="small img here" />
         </div>
