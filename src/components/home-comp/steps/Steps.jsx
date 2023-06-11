@@ -1,5 +1,8 @@
 import React from "react";
-import image from "../../../images/Home screen.png";
+import imageStepOne from "../../../images/Home screen.png";
+import imageStepTwo from "../../../images/step 2.png";
+import imageStepThree from "../../../images/step 3.png";
+import imageStepFour from "../../../images/step 4.png";
 // import { Swiper, SwiperSlide } from "swiper/react";
 import Swiper from "react-id-swiper";
 import "./steps.css";
@@ -7,10 +10,6 @@ import "swiper/css/pagination";
 import "swiper/css";
 import SwiperCore, { Pagination, Navigation } from "swiper";
 SwiperCore.use([Pagination, Navigation]);
-
-const paginationHandler = () => {
-  console.log("working");
-};
 
 const Steps = () => {
   const params = {
@@ -58,10 +57,10 @@ const Steps = () => {
         </h2>
       </div>
       <Swiper {...params} className="mySwiper">
-        <img src={image} alt="this is img" />
-        <img src={image} alt="this is img" />
-        <img src={image} alt="this is img" />
-        <img src={image} alt="this is img" />
+        <img src={imageStepOne} alt="this is img" />
+        <img src={imageStepTwo} alt="this is img" />
+        <img src={imageStepThree} alt="this is img" />
+        <img src={imageStepFour} alt="this is img" />
       </Swiper>
     </section>
   );
