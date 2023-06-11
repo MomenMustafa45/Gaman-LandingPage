@@ -8,11 +8,16 @@ import "swiper/css";
 import SwiperCore, { Pagination, Navigation } from "swiper";
 SwiperCore.use([Pagination, Navigation]);
 
+const paginationHandler = () => {
+  console.log("working");
+};
+
 const Steps = () => {
   const params = {
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
+      currentClass: "active",
       renderBullet: (index, className) => {
         return (
           '<span  class="' +

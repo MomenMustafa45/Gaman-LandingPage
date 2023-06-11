@@ -59,6 +59,11 @@
 /* Slider */
 /* Slider */
 
+.active-step {
+  background-color: red !important;
+  color: red;
+}
+
 .swiper-android .swiper-slide,
 .swiper-wrapper {
   transform: translate3d(0px, 0, 0);
@@ -89,12 +94,14 @@
   .swiper-pagination-bullet {
   cursor: pointer;
   margin: 10px 0 !important;
-  width: 50px;
-  height: 50px;
-  display: block;
+  width: 100%;
+  height: 100px;
   border-radius: 0;
   opacity: 1;
   background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .swiper-horizontal {
@@ -117,7 +124,7 @@
 }
 .steps-parent .cards-container h4 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000;
 }
 .steps-parent .cards-container i {
@@ -178,17 +185,15 @@
   .steps-parent .cards-container::after {
     width: 30px;
   }
+
   .steps-parent .cards-container i {
-    width: 55px;
-    height: 55px;
-  }
-  .steps-parent .cards-container i {
-    width: 50px;
+    min-width: 60px;
     height: 41px;
+    max-width: 60px;
   }
 }
 
-@media (max-width: 990px) and (min-width: 769px) {
+@media (max-width: 990px) and (min-width: 768px) {
   .steps-parent .cards-container {
     width: 210px;
     height: 60px;
@@ -209,10 +214,6 @@
 }
 
 @media (max-width: 768px) {
-  .steps-parent {
-    height: 170vh;
-  }
-
   .steps-header {
     justify-content: center;
   }
@@ -221,8 +222,9 @@
     width: auto;
   }
 
-  .swiper-horizontal {
+  .steps-parent .swiper-horizontal {
     width: 100%;
+    margin-top: 90%;
   }
 
   .steps-parent .swiper-horizontal > .swiper-pagination-bullets,
@@ -230,7 +232,7 @@
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
     left: 0;
-    top: 100%;
+    top: -100%;
   }
 
   .steps-parent .cards-container {
@@ -243,8 +245,9 @@
   .steps-parent {
     text-align: center;
   }
-  .swiper-horizontal {
+  .steps-parent .swiper-horizontal {
     width: 100%;
+    margin-top: 130%;
   }
   .steps-header {
     display: flex;
@@ -254,30 +257,45 @@
   }
 
   .steps-parent .cards-container {
-    width: 165px;
     height: 67px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .steps-parent .cards-container i {
+    display: none;
   }
 
   .steps-parent .cards-container::after {
     left: -18%;
+    display: none;
   }
 
   .steps-parent .cards-container h4 {
     font-size: 12px;
   }
 
+  .steps-parent .cards-container span {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 0%;
+  }
+
   .steps-parent .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    left: 0;
-    top: 125%;
-    padding-left: 50px;
+    top: -135%;
+    padding-left: 0;
   }
 
   .steps-header h2 {
     width: 100%;
     font-size: 25px;
+    margin-bottom: 50px;
   }
   .steps-header h2 span {
     width: 155px;

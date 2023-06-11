@@ -13,7 +13,7 @@ const Footer = () => {
             <p>GAMAN</p>
           </div>
           <p>
-            Made with <i class="bi bi-heart-fill"></i> in India
+            Made with <i className="bi bi-heart-fill"></i> in India
           </p>
         </div>
 

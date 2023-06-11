@@ -78,6 +78,6 @@ swiper-slide {
 
 @media (max-width: 600px) {
   .creators-parent {
-    margin-top: -170px;
+    /* margin-top: -170px; */
   }
 }
