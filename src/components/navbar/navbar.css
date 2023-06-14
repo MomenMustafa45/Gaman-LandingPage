@@ -37,10 +37,11 @@
   font-weight: 500;
   font-size: 18px;
   color: #000;
+  margin: 0 20px;
 }
 
 .navbar-parent .right-side-container .links-container li:last-child a {
-  margin-left: 160px;
+  margin-left: 145px;
   background: linear-gradient(
       180deg,
       #e50f1c -38.3%,
