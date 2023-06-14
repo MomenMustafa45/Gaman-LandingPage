@@ -3,7 +3,6 @@ import imageStepOne from "../../../images/Home screen.png";
 import imageStepTwo from "../../../images/step 2.png";
 import imageStepThree from "../../../images/step 3.png";
 import imageStepFour from "../../../images/step 4.png";
-// import { Swiper, SwiperSlide } from "swiper/react";
 import Swiper from "react-id-swiper";
 import "./steps.css";
 import "swiper/css/pagination";
@@ -22,7 +21,7 @@ const Steps = () => {
           '<span  class="' +
           className +
           '">' +
-          ` <div class="cards-container">
+          ` <a href="#" class="cards-container">
                 <i class="${
                   index === 0
                     ? "bi bi-person-add"
@@ -41,8 +40,8 @@ const Steps = () => {
                      ? "Create your first contests or tournament."
                      : "Share the link with your audience and start earning"
                  }</h4>
-                 <span>${index + 1}</span>
-            </div> ` +
+                 <span >${index + 1}</span>
+            </a> ` +
           "</span>"
         );
       },
