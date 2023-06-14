@@ -40,7 +40,7 @@ const Steps = () => {
                      ? "Create your first contests or tournament."
                      : "Share the link with your audience and start earning"
                  }</h4>
-                 <span >${index + 1}</span>
+                 <span ${index === 1 && "autofocus"}>${index + 1}</span>
             </a> ` +
           "</span>"
         );

@@ -123,6 +123,7 @@
   box-shadow: 1px 1px 7px #a59696;
   padding: 20px;
 }
+
 .steps-parent .cards-container:focus span {
   background-color: #d4121c;
   color: #fff;

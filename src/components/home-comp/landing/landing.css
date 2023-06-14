@@ -166,4 +166,12 @@
     width: 100%;
     margin: auto;
   }
+  .landing-text-container h1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .landing-parent .swiper,
+  .landing-parent .swiper-container {
+    height: 28px;
+  }
 }
