@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 100px;
+  padding: 10px 50px;
 }
 
 /* left side navbar */
@@ -40,7 +40,7 @@
 }
 
 .navbar-parent .right-side-container .links-container li:last-child a {
-  margin-left: 90px;
+  margin-left: 160px;
   background: linear-gradient(
       180deg,
       #e50f1c -38.3%,

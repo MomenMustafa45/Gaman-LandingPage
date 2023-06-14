@@ -71,6 +71,10 @@
   height: 55px;
   display: inline-flex;
 }
+
+.landing-parent .swiper-vertical > .swiper-wrapper {
+  color: #d8111c;
+}
 /* Landing TEXT SLIDER */
 /* Landing TEXT SLIDER */
 

@@ -1,6 +1,7 @@
 .steps-parent {
   overflow: hidden;
   background-color: #fff;
+  width: 108%;
 }
 
 /* Steps Header */
