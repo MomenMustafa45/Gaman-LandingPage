@@ -65,7 +65,7 @@ const Navbar = () => {
         <img src={iconImage} alt="icon img" />
       </div>
 
-      <nav
+      <ul
         className="toggle-menu-container"
         style={{ height: `${toggleMenu ? "auto" : "0"}` }}
       >
@@ -87,7 +87,7 @@ const Navbar = () => {
             Creator zone
           </Link>
         </li>
-      </nav>
+      </ul>
     </header>
   );
 };

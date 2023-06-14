@@ -3,6 +3,7 @@ import "swiper/css";
 import BackgroundShadow from "../../background-shadow/BackgroundShadow";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
+// import Swiper from "react-id-swiper";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import image from "../../../images/landing-main-photo.png";
 import imageIcon from "../../../images/landing-small-photo.png";
@@ -15,10 +16,10 @@ const Landing = () => {
 
       <div className="landing-text-container">
         <h1>
-          Monetize & Engage Your
+          Monetize & Engage Your{" "}
           <Swiper
-            spaceBetween={50}
-            slidesPerView={1}
+            // spaceBetween={50}
+            slidesPerView="1"
             autoplay={{
               delay: 1000,
               disableOnInteraction: false,
@@ -26,7 +27,8 @@ const Landing = () => {
             speed={2000}
             loop={true}
             modules={[Autoplay, Pagination, Navigation]}
-            style={{ display: "inline-flex" }}
+            // style={{ display: "inline-flex" }}
+            direction="vertical"
           >
             <SwiperSlide>FANS</SwiperSlide>
             <SwiperSlide>AUDIENCE</SwiperSlide>

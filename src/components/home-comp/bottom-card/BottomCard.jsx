@@ -26,6 +26,7 @@ const BottomCard = () => {
             loop={true}
             modules={[Autoplay, Pagination, Navigation]}
             style={{ display: "inline-flex" }}
+            direction="vertical"
           >
             <SwiperSlide>FANS</SwiperSlide>
             <SwiperSlide>AUDIENCE</SwiperSlide>

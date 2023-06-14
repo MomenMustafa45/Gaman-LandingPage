@@ -288,14 +288,14 @@
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    top: -135%;
+    top: -170%;
     padding-left: 0;
   }
 
   .steps-header h2 {
     width: 100%;
     font-size: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 140px;
   }
   .steps-header h2 span {
     width: 155px;

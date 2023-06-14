@@ -77,4 +77,50 @@ swiper-slide {
 }
 
 @media (max-width: 600px) {
+  .creators-parent .creator-card-parent {
+    width: 100%;
+  }
+  .creator-card-parent .img-card-container {
+    height: 100px;
+  }
+  .creator-card-parent .img-card-container img {
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, 0%);
+  }
+  .creator-card-parent h5 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .creator-card-parent .card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  .creator-card-parent .card-details .details-right {
+    width: 100%;
+    border-bottom: 1px solid #ba9393;
+    border-right: none;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .creator-card-parent .card-details .details-right p:first-child {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+
+  .creator-card-parent .card-details .details-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 15px;
+  }
+
+  .creator-card-parent .card-details .details-left p:first-child {
+    font-size: 18px;
+  }
 }
